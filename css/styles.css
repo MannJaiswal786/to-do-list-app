@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #2e3d7c 50%, #ffa73c 50%);
+}
+
+.container {
+  height: 450px;
+  width: 330px;
+  background: #e15d3a;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0.5, 0.5, 0.5, 0.5);
+  padding: 10px;
+  overflow-y: auto;
+}
+
+#input {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #ba292e;
+  font-size: medium;
+  padding: 0 10px;
+  margin: 15px 0;
+}
+
+input::placeholder {
+  color: #fff;
+  text-align: center;
+}
+
+ul li {
+  background: #ffa089;
+  color: black;
+  height: 40px;
+  border-radius: 50px;
+  margin: 10px 0;
+  padding: 10px;
+  position: relative;
+}
+
+ul .fa-check-circle,
+.fa-trash {
+  position: absolute;
+  cursor: pointer;
+}
+
+ul .fa-check-circle {
+  right: 40px;
+  color: green;
+}
+
+ul .fa-trash {
+  right: 15px;
+  color: red;
+}
+
+ul .checked {
+  background: lightgreen;
+  text-decoration: line-through;
+}
+
+.header {
+  font-size: larger;
+  text-align: center;
+}
