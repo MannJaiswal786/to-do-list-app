@@ -77,3 +77,7 @@ ul .checked {
   font-size: larger;
   text-align: center;
 }
+
+ul {
+  list-style: none;
+}
